@@ -1,3 +1,15 @@
+# To-Do List Frontend (Angular)
+
+This is the front-end part of the To-Do List application, developed using Angular. It provides a user-friendly interface for managing tasks in a to-do list.
+
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+- [Angular CLI](https://angular.io/cli) installed.
+
 # TaskManagementAng
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
