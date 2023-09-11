@@ -1,0 +1,23 @@
+<h2> Task List</h2>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th> Task Name</th>
+            <th> Description </th>
+            <th> Task Status</th>
+            <th> Actions </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let task of task" >
+            <td> {{ task.taskName }} </td>
+            <td> {{ task.taskDescription }} </td>
+            <td> {{ task.taskStatus }} </td>
+            <td>
+                <button (click) = "updateTask(task.id)" class = "btn btn-info"> Update</button>
+                <button (click) = "deleteTask(task.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
+                <button (click) = "taskDetails(task.id)" class = "btn btn-info" style="margin-left: 10px"> View</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
